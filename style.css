@@ -1,0 +1,57 @@
+       body {
+           display: flex;
+           justify-content: center;
+       }
+
+       .container {
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+           width: 800px;
+           gap: 10px;
+       }
+
+       button {
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: large;
+           padding: 20px;
+
+           width: 150px;
+       }
+
+       .btn1 {
+           background-color: rgb(52, 66, 66);
+           color: rgb(0, 0, 0);
+           border: 5px solid transparent;
+           border-radius: 20px;
+           background: white;
+           box-shadow: 0 10px 25px rgba(255, 0, 0, 0.5);
+           background-clip: padding-box;
+       }
+
+       .btn1:hover {
+           background: black;
+           color: white;
+           border-radius: 20px;
+           border: 3px solid transparent;
+           box-shadow: 0 10px 25px rgba(0, 0, 0, 0.712);
+           transition: all 0.4s ease;
+           flex-grow: 1;
+       }
+
+       .btn2 {
+           color: white;
+           background-color: black;
+           border-radius: 20px;
+
+
+       }
+
+       .btn2:hover {
+           background: #3F5EFB;
+           background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+         
+         
+           flex: 1 1 20px;
+           transition: all 0.4s ease;
+       }
