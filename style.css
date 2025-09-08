@@ -73,7 +73,10 @@
 
 
 
-       
+       div{
+        border: 2px solid black;
+       }
+
 .parent {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -81,15 +84,6 @@
     gap: 8px;
 }
     
-
-
-
-
-
-
-
-
-
 
 .div11 {
     grid-column-start: 10;
